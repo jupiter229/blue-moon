@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt --openssl-legacy-provider build",
-    "start": "nuxt --openssl-legacy-provider start",
+    "build": "nuxt build",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "sass": "sass --update --no-source-map --style=compressed assets/scss:static",
     "sass-watch": "sass --watch --update --no-source-map --style=compressed assets/scss:static",
