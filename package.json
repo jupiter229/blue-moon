@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
+    "build": "nuxt --openssl-legacy-provider build",
+    "start": "nuxt --openssl-legacy-provider start",
     "generate": "nuxt generate",
     "sass": "sass --update --no-source-map --style=compressed assets/scss:static",
     "sass-watch": "sass --watch --update --no-source-map --style=compressed assets/scss:static",
