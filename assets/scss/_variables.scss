@@ -1,0 +1,119 @@
+// colors
+$white: #fff;
+$whitelight: #fefefe;
+$black: #000;
+$error: #fd413b;
+$success: #25ab47;
+$disabled: #171e32;
+
+$limegreen: #ccff66;
+$green: #53dd6c;
+$orange: #ff7415;
+
+$lightblue: #66ccff;
+$bluemoonblue: #007fff;
+$midnightblue: #02022d;
+$darkblue: #01011c;
+
+$lightgrey: #b7b6c3;
+
+$fontcolors: (
+  "white": $white,
+  "whitelight": $whitelight,
+  "black": $black,
+  "error": $error,
+  "success": $success,
+  "lightgrey": $lightgrey,
+);
+
+$bgcolors: (
+  "white": $white,
+  "black": $black,
+  "midnightblue": $midnightblue,
+);
+
+$fillcolors: (
+  "error": $error,
+  "success": $success,
+);
+/* ---------------------------------------- */
+
+// containers
+$containers: (
+  "large": 1600,
+  "medium": 1200,
+);
+$containerPadding: (
+  "sssl": 80,
+  "xxxl": 40,
+  "l": 32,
+  "xs": 24,
+);
+/* ---------------------------------------- */
+
+// fonts
+$sans: "Arial", sans-serif;
+$serif: "Times New Roman", serif;
+$generalsans: "General Sans";
+$jura: "Jura", sans-serif;
+
+$fontFamilies: (
+  "sans": $sans,
+  "serif": $serif,
+  "jura": $jura,
+  "generalsans": $generalsans,
+);
+
+$fontSizes: (12, 14, 16, 18, 20, 22, 24, 38, 40, 44, 48, 52, 58);
+$fontWeights: (300, 600, 700);
+$lineHeights: (120, 140, 160, 170, 180, 200);
+$letterSpacing: (
+  "t20": -0.02,
+  "t10": -0.01,
+  "l00": 0,
+  "l10": 0.01,
+  "l20": 0.02,
+  "l40": 0.04,
+  "l50": 0.05,
+);
+/* ---------------------------------------- */
+
+// grid
+$gapSizes: (16, 24, 32, 40);
+/* ---------------------------------------- */
+
+// spacing
+$spaceAddPaddings: false;
+$spaceAmounts: (40, 80);
+$spaceSides: ("top", "bottom");
+/* ---------------------------------------- */
+
+// svgs
+$svgs: (
+  "discord" 24 24,
+  "email" 24 24,
+  "facebook" 24 24,
+  "github" 24 24,
+  "instagram" 24 24,
+  "linkedin" 24 24,
+  "medium" 24 24,
+  "phone" 24 24,
+  "pinterest" 24 24,
+  "reddit" 24 24,
+  "telegram" 24 24,
+  "twitch" 24 24,
+  "twitter" 24 24,
+  "vimeo" 24 24,
+  "whatsapp" 24 24,
+  "youtube" 24 24
+);
+/* ---------------------------------------- */
+
+// body default styles
+$bodyFont: $generalsans;
+$bodyFontSize: 16;
+$bodyColor: $black;
+$bodyBackground: $white;
+$bodyLetterSpace: -0.01;
+$bodyWeight: 400;
+$breakpointMode: "max";
